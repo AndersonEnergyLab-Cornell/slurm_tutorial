@@ -17,8 +17,8 @@ end
 Objective = x'*x+norm(x,1);
 
 % Set some options for YALMIP and solver
-options = sdpsettings('verbose',1,'solver','quadprog','quadprog.maxiter',100);
-
+% options = sdpsettings('verbose',1,'solver','quadprog','quadprog.maxiter',100);
+options = sdpsettings('verbose',1,'solver','gurobi');
 % Solve the problem
 sol = optimize(Constraints,Objective,options);
 

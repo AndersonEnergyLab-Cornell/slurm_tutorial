@@ -8,5 +8,4 @@
 #SBATCH -t 1:00:00
 
 cd $SLURM_SUBMIT_DIR
-module load python/3.9.4
-python helloworld.py
+python3 helloworld.py
