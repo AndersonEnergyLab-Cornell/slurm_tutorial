@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name="pythontest"
 #SBATCH --output=pythontest.%A_%a.out
-#SBATCH --arra=1-3
+#SBATCH --array=1-3
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --exclusive
