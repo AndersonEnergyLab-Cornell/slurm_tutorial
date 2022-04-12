@@ -7,7 +7,8 @@ Login with your credentials and allocate the slurm_tutorial repository. Make a c
 
 ## Hopper
 Homepage: https://www.cac.cornell.edu/wiki/index.php?title=Hopper_Cluster
-You will be able to find all the basic information about Hopper from the homepage. Some of the following information is taken from the homepage
+You will be able to find all the basic information about Hopper from the homepage. Some of the following information is taken from the homepage.
+
 We are sharing this cluster with several groups, so there is a google doc to help us communicate with each and planning our job submission accordingly:
 https://docs.google.com/spreadsheets/d/1eZZJYHK_LbwlbSAHN-icJT7H-2FuSoEnRMCIcPNX2GA/edit#gid=0
 
