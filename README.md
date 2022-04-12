@@ -77,6 +77,28 @@ If you want to run an identical programs for multiple times, instead of using a 
 #SBATCH --output=pythontest.%A_%a.out
 #SBATCH --array=1-3
 ```
+
+## Using Github with cluster
+### Setup personal access Tokens with GIT and Github
+To generate a token
+- Log into GitHub
+- Click on your name / Avatar in the upper right corner and select Settings'
+- On the left, click Developer settings
+- Select Personal access tokens and click Generate new token
+- Give the token a description/name and select the scope of the token
+- Click Generate token
+- Copy the token – this is your new password! (Save this to a safe place as it will only appear once on the website)
+
+### Confiugre Git on Hopper
+```
+git config --global user.name ""
+git config --global user.email ""
+git config -l
+git clone "a private repo from our organization and it will ask for your username and the token we just generated)
+git config --global credential.helper cache
+```
+
 ## Reference
 - [BSCB Cluster Tutorial](https://github.com/therkildsen-lab/user-guide/blob/master/slurm_tutorial/slurm.md)
 - [Job scheduling on HPC resources](https://waterprogramming.wordpress.com/2018/06/25/job-scheduling-on-hpc-resources/)
+- [Using Personal Access Tokens with GIT and GitHub](https://www.edgoad.com/2021/02/using-personal-access-tokens-with-git-and-github.html)
