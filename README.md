@@ -77,5 +77,5 @@ If you want to run an identical programs for multiple times, instead of using a 
 #SBATCH --array=1-3
 ```
 ## Reference
-- [BSCB Cluster Tutorial] (https://github.com/therkildsen-lab/user-guide/blob/master/slurm_tutorial/slurm.md)
+- [BSCB Cluster Tutorial](https://github.com/therkildsen-lab/user-guide/blob/master/slurm_tutorial/slurm.md)
 - [Job scheduling on HPC resources](https://waterprogramming.wordpress.com/2018/06/25/job-scheduling-on-hpc-resources/)
